@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_3d12dc3ba8a64a4be71d78e72c4bd8bb9f254eaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\libs\sqlite-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\sqlite-connector_b0fea4ecf67a7d1c07ae8afaee558eb9fc22f260.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\libs\jpush-android-3.0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89613f120c3b6a6c3ce0f75399d6eb95b9776e90">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\jpush-android-3.0.9_3d87321e74181289fe3371c080024c71e1c9fd7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\.gradle\caches\modules-2\files-2.1\com.tencent.mm.opensdk\wechat-sdk-android-with-mta\1.4.0\55f95375f268e0cd7ebe65f433969233990b12b7\wechat-sdk-android-with-mta-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="55f95375f268e0cd7ebe65f433969233990b12b7">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\wechat-sdk-android-with-mta-1.4.0_ff5c4897813b92f9b8197dcfb82320a86e4b0833.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_8899d569a52f8febffb8f94550c95656073a506b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_3179c554dc227f1c3328c682576dae10dce2c95d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\libs\alipaySdk-20151103.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="532e123a000537dcc0fc5bcbac1aeb4562be98af">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\alipaySdk-20151103_2dacc60221023f995e41e7b595e0e3060813f267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7a1530ac850543228ac856fe951d258efe29f918">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_ba840085cc980c52d088fe0010af41a54aeddbbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_80602513b53326003ca08cce95e237b30d158efb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\libs\jcore-android-1.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e38434d177c7e2ad13524529f2a0874cad828323">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\jcore-android-1.1.7_04daa4f9cd51fbef023ba76fd6b414cc1e013165.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_33198ad1081ba188556ad83c7ee118a6f437bfbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\74274\Desktop\Bitcoin\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_036a3f7163c4cf453ce62c44ecb7018b086f7440.jar" />
+    </item>
+
+</items>

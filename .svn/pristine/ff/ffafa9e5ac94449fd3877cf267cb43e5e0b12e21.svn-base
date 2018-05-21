@@ -1,0 +1,50 @@
+{
+  "_from": "cordova-alipay-base@0.0.1",
+  "_id": "cordova-alipay-base@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-WFAwTf4Wd5efsqxDsaUt4uHc5Gg=",
+  "_location": "/cordova-alipay-base",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-alipay-base@0.0.1",
+    "name": "cordova-alipay-base",
+    "escapedName": "cordova-alipay-base",
+    "rawSpec": "0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "0.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/cordova-alipay-base/download/cordova-alipay-base-0.0.1.tgz",
+  "_shasum": "5850304dfe1677979fb2ac43b1a52de2e1dce468",
+  "_spec": "cordova-alipay-base@0.0.1",
+  "_where": "C:\\Users\\74274\\Desktop\\Origin\\node_modules",
+  "bundleDependencies": false,
+  "cordova_name": "Alipay Basic Mobile Payment Plugin",
+  "deprecated": false,
+  "description": "阿里支付移动支付Cordova插件",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.5.0"
+    }
+  ],
+  "issue": "https://github.com/pipitang/cordova-alipay-base/issues",
+  "keywords": [
+    "alipay",
+    "阿里支付",
+    "支付宝"
+  ],
+  "license": "MIT license",
+  "name": "cordova-alipay-base",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repo": "https://github.com/pipitang/cordova-alipay-base",
+  "version": "0.0.1"
+}

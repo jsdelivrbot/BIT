@@ -1,0 +1,4 @@
+package com.midukeji.Origin.wxapi;
+
+public class WXEntryActivity extends EntryActivity {
+}

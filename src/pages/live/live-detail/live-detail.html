@@ -1,0 +1,46 @@
+<ion-content>
+    <img class="back_img" src="assets/images/home/icon_back@{{dpr}}x.png" (click)="goBack()">
+    <div class="ld_wrap">
+        <video id="video1" ishivideo="true" isrotate="true" autoHide="false" src="assets/video/movie.mp4"></video>
+    </div>
+    <p class="ld_title">加密货币市场起起落落中让更多人认识了它们，并纷</p>
+    <div class="ld_tip">
+        <img class="avatar" src="assets/images/live/my_icon_details@3x.png">
+        <p class="author">
+            张老师
+            <img src="assets/images/home/home_earnings_icon_blue@{{dpr}}x.png">
+        </p>
+        <p class="audience">
+            <img src="assets/images/live/live_icon_person@{{dpr}}x.png"> 100
+        </p>
+    </div>
+    <div class="ld_comment" #comment (touchstart)="touchS()" (touchend)="touchE()">
+        <p class="ld_tit">
+            欢迎来到直播间。平台提倡健康和谐的直播环境，对直 播内容随时进行巡查。任何传播违法、违规等不良内容 时将被封号。
+        </p>
+        <div class="other_speak" *ngFor="let x of [1,2,3,4,5,6,7,8,9,10]">
+            <div>
+                <p>{{name|nameReplace}}:</p>
+            </div>
+            <div>
+                <p>内容阿三大苏打大大大大苏打大大大大苏打大大大大苏打大大大大大大</p>
+            </div>
+        </div>
+        <div class="other_speak my_speak">
+            <div>
+                <p>{{name|nameReplace}}:</p>
+            </div>
+            <div>
+                <p>内容阿三大大大大大大大大苏打大大大大大大</p>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="fix_wrap" id="set_input">
+        <div class="foot_wrap" #foot>
+            <input type="text" placeholder="说点什么吧">
+            <button (click)="send()">发送</button>
+        </div>
+    </div>
+
+</ion-content>

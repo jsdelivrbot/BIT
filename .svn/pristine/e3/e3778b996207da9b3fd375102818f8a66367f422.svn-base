@@ -1,0 +1,5 @@
+package com.midukeji.Origin.wxapi;
+
+public class WXPayEntryActivity extends EntryActivity {
+
+}

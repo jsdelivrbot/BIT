@@ -1,0 +1,51 @@
+{
+  "_from": "@ionic-native/in-app-browser@^4.2.1",
+  "_id": "@ionic-native/in-app-browser@4.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-of7T6glbdXM1YyUKxI7b/sSDC5k=",
+  "_location": "/@ionic-native/in-app-browser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@ionic-native/in-app-browser@^4.2.1",
+    "name": "@ionic-native/in-app-browser",
+    "escapedName": "@ionic-native%2fin-app-browser",
+    "scope": "@ionic-native",
+    "rawSpec": "^4.2.1",
+    "saveSpec": null,
+    "fetchSpec": "^4.2.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/@ionic-native/in-app-browser/download/@ionic-native/in-app-browser-4.2.1.tgz",
+  "_shasum": "a1fed3ea095b75733563250ac48edbfec4830b99",
+  "_spec": "@ionic-native/in-app-browser@^4.2.1",
+  "_where": "C:\\Users\\74274\\Desktop\\Origin",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/in-app-browser",
+  "peerDependencies": {
+    "@ionic-native/core": "^3.6.0 || >=4.0.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "4.2.1"
+}

@@ -1,0 +1,50 @@
+<ion-tabs #mainTabs class="tabs-md" selectedIndex="0" (ionChange)="tabchange($event)">
+    <ion-tab [root]="tab1Root" tabTitle="首页" tabIcon="home"></ion-tab>
+    <ion-tab [root]="tab2Root" tabTitle="交易" tabIcon="trade"></ion-tab>
+    <ion-tab [root]="tab3Root" tabTitle="跟单" tabIcon="follow"></ion-tab>
+    <ion-tab [root]="tab4Root" tabTitle="直播" tabIcon="live"></ion-tab>
+    <ion-tab [root]="tab5Root" tabTitle="我的" tabIcon="my"></ion-tab>
+</ion-tabs>
+<div class="modal_mock" *ngIf="modal_mock" [@modalMock]>
+    <div class="confirm_self">
+        <div class="div1">
+            <p>BTC</p>
+            <p>单号：87890013</p>
+        </div>
+        <div class="div2" *ngIf="modal=='modal1'">
+            <p>设置平仓价格</p>
+            <p tappable (click)="setPriceState()">
+                <img class="img1" *ngIf="marketPrice" src="assets/images/my/icon_dot_pre@3x.png">
+                <img class="img1" *ngIf="!marketPrice" src="assets/images/my/icon_dot_nor@3x.png"> 市价平仓
+            </p>
+            <div>
+                <button (click)="setPrice('subtract')">-</button>
+                <input type="number" (blur)="blur()" [(ngModel)]="price">
+                <button (click)=" setPrice( 'plus') ">+</button>
+            </div>
+        </div>
+        <div class="div3" *ngIf="modal=='modal2'">
+            <div>
+                <p>触发止盈</p>
+                <div>
+                    <button (click)="setPriceUp('subtract')">-</button>
+                    <input type="number" (blur)="blur()" [(ngModel)]="priceUp">
+                    <button (click)=" setPriceUp( 'plus') ">+</button>
+                </div>
+
+            </div>
+            <div>
+                <p>触发止损</p>
+                <div>
+                    <button (click)="setPriceDown('subtract')">-</button>
+                    <input type="number" (blur)="blur()" [(ngModel)]="priceDown">
+                    <button (click)=" setPriceDown( 'plus') ">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="div4 ">
+            <button (click)="buttonClick(false) ">取消</button>
+            <button (click)="buttonClick(true) ">确定</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,102 @@
+<!-- <ion-header>
+    <ion-navbar>
+        <ion-title>点点盈</ion-title>
+        <button class="head_but div_redbg" item-end ion-button (click)="goNextPage('customerservice')">
+            <img class="home_headimg" src="assets/images/home/home_nav_icon_service@{{dpr}}x.png">
+            <p class="home_headp th_second" >&nbsp;客服</p>
+        </button>
+    </ion-navbar>
+</ion-header> -->
+<ion-content>
+    <div class="home_banner">
+        <ion-slides pager autoplay='3000' tappable (click)="goNextPage('noviceschoolpage')" *ngIf="bannerdata.length!=0">
+            <ion-slide *ngFor="let banner of bannerdata">
+                <img style="width:100%;height:100%;" src="{{imgIp}}{{banner.url}}">
+            </ion-slide>
+        </ion-slides>
+    </div>
+    <div class="home_tip div_bgcolor" tappable (click)="goNextPage('notice');$event.preventDefault();$event.stopPropagation();">
+        <img class="img1" src="assets/images/home/home_icon_notice@{{dpr}}x.png">
+        <img class="img2" src="assets/images/home/icon_right@{{dpr}}x.png">
+        <marquee direction="up" class="marqueen" scrollamount="2">
+            <p *ngFor="let x of noticeData">{{x.title}}</p>
+        </marquee>
+
+    </div>
+    <div class="home_nav div_bgcolor">
+        <div tappable (click)="goNextPage('invite')" class="div_bgcolor">
+            <img src="assets/images/home/home_icon_invite@{{dpr}}x.png">
+            <p class="th_light">邀请有礼</p>
+        </div>
+        <div tappable (click)="goNextPage('school')" class="div_bgcolor">
+            <img src="assets/images/home/home_icon_newbie@{{dpr}}x.png">
+            <p class="th_light">新手学堂</p>
+        </div>
+        <div tappable (click)="goNextPage('introduction')" class="div_bgcolor">
+            <img src="assets/images/home/home_icon_introduce@{{dpr}}x.png">
+            <p class="th_light">平台介绍</p>
+        </div>
+    </div>
+    <div class="nt"></div>
+    <div class="home_income div_bgcolor">
+        <div class="home_tip">
+            <img class="img1" src="assets/images/home/home_icon_earnings@{{dpr}}x.png">
+            <p class="th_gray">收益榜单</p>
+        </div>
+        <div class="home_scroll">
+            <div class="scroll_wrap">
+                <div class="scroll_cont" *ngFor="let x of [1,2,3,4]">
+                    <img class="avatar" src="assets/images/home/home_btn_trade@{{dpr}}x.png">
+                    <p class="p1 th_light">
+                        张老师
+                        <img src="assets/images/home/home_earnings_icon_blue@{{dpr}}x.png">
+                    </p>
+                    <p class="p2 th_light">
+                        930人跟单
+                    </p>
+                    <button>
+                        跟单
+                    </button>
+                    <table>
+                        <tr>
+                            <td>116.07%</td>
+                            <td>0.35%</td>
+                            <td>22.76万</td>
+                        </tr>
+                        <tr>
+                            <td>总收益</td>
+                            <td>七日收益</td>
+                            <td>净利润</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nt"></div>
+    <div class="home_news div_bgcolor" *ngIf="newsdata1.length!=0" tappable (click)="goNextPage('info');$event.preventDefault();$event.stopPropagation();">
+        <div class="home_tip">
+            <img class="img1" src="assets/images/home/home_icon_information@{{dpr}}x.png">
+            <img class="img2" src="assets/images/home/icon_right@{{dpr}}x.png">
+            <p class="th_gray">热门资讯</p>
+        </div>
+        <div class="home_inwrap">
+            <div class="div1">
+                <img src="{{imgIp}}{{firstNews.cover}}" class="hn_img" tappable (click)="goNextPage('detail',firstNews.id);$event.preventDefault();$event.stopPropagation();">
+            </div>
+            <div class="div2">
+                <p class="th_light" *ngFor="let x of newsdata1" tappable (click)="goNextPage('detail',x.id);$event.preventDefault();$event.stopPropagation();">
+                    {{newsdata1.title}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="nt"></div>
+    <div class="home_list " tappable (click)="goNextPage('detail',x.id);$event.preventDefault();$event.stopPropagation();">
+        <thumb-nail [hero]="x" *ngFor="let x of newsdata2"></thumb-nail>
+    </div>
+    <div class="home_foottip">
+        <img src="assets/images/home/home_img_cme.png">
+        <p class="th_gray">实盘对接芝加哥商品交易所</p>
+    </div>
+</ion-content>

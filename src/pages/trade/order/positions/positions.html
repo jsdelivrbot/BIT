@@ -1,0 +1,46 @@
+<ion-content>
+    <div class="host_p">
+        <p>持仓盈亏&nbsp;&nbsp;&nbsp;&nbsp;<strong>￥288.00</strong></p>
+        <button ion-button outline>全部平仓</button>
+        <table>
+            <tr>
+                <td>1800</td>
+                <td>1800</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>冻结保证金</td>
+                <td>可用余额</td>
+                <td>持仓手数</td>
+            </tr>
+        </table>
+    </div>
+    <div class="wrap div_bgcolor">
+        <div class="item_tit">
+            <p class="p0 ">BTC&nbsp;&nbsp;&nbsp;&nbsp;<em>单号：87890</em></p>
+            <p class="p3" tappable (click)="setDetail('modal1')">设置止盈止损</p>
+        </div>
+        <div class="item_tit item_tit1">
+            <p class="p1" style="color:#DF3F43;"><strong>买涨一手</strong></p>
+            <p class="p2" style="color:#DF3F43;"><strong>210.00</strong></p>
+        </div>
+        <div class="item_tit item_tit1">
+            <p class="p1">买入 2800</p>
+            <p class="p2">止盈 42.99</p>
+        </div>
+        <div class="item_tit item_tit1">
+            <p class="p1">现价 -1400</p>
+            <p class="p2">止损 43.02</p>
+        </div>
+        <div class="item1">
+            <p>综合费：168.00</p>
+        </div>
+        <div class="item2">
+            <p class="p1">成交时间：16:28:00</p>
+        </div>
+        <div class="item3">
+            <p>*当本笔交易结算后，保证金与获利将统一转入资金账户</p>
+        </div>
+        <button class="but" (click)="setDetail('modal2')">平仓</button>
+    </div>
+</ion-content>

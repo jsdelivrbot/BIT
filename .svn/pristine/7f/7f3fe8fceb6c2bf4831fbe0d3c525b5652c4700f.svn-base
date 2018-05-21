@@ -1,0 +1,49 @@
+{
+  "_from": "alloycrop",
+  "_id": "alloycrop@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-RZFa9SkNtdRVKvxOOuyVgd87H3M=",
+  "_location": "/alloycrop",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "alloycrop",
+    "name": "alloycrop",
+    "escapedName": "alloycrop",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/alloycrop/download/alloycrop-1.0.2.tgz",
+  "_shasum": "45915af5290db5d4552afc4e3aec9581df3b1f73",
+  "_spec": "alloycrop",
+  "_where": "C:\\Users\\74274\\Desktop\\Bitcoin",
+  "author": {
+    "name": "dntzhang"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "alloyfinger": "^0.1.8",
+    "css3transform": "^1.1.7"
+  },
+  "deprecated": false,
+  "description": "The best and tiny size mobile cropping component - ���������С���ƶ��ü����",
+  "keywords": [
+    "alloycrop",
+    "crop",
+    "alloyfinger",
+    "gesture"
+  ],
+  "license": "MIT",
+  "main": "alloy-crop.js",
+  "name": "alloycrop",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

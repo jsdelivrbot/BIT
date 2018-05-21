@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title></ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <p class="live_header">直播</p>
+    <div class="live_wrap" tappable (click)="goNextPage('live')">
+        <video preload="auto" autoplay="autoplay" poster="assets/images/live/live_img.png" src="assets/video/movie.mp4" data-setup='{}'></video>
+    </div>
+    <div class="live_tip">
+        <img src="assets/images/live/live_icon_recommend@{{dpr}}x.png">
+        <p>精选推荐</p>
+    </div>
+    <div class="live_record">
+        <div *ngFor="let x of liveData" tappable (click)="goNextPage('record',x.id)">
+            <div class="div1">
+                <img src="{{imgIp}}{{x.cover}}">
+            </div>
+            <div class="div2">
+                <p>{{x.title}}</p>
+            </div>
+        </div>
+    </div>
+    <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+        <ion-infinite-scroll-content loadingText="正在加载" loadingSpinner="bubbles" threshold="2rem"></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+    <div class="bot_line" *ngIf="showline">
+        <p>-----------------&nbsp;&nbsp;别扯了，我也是有底线的&nbsp;&nbsp;-----------------</p>
+    </div>
+</ion-content>

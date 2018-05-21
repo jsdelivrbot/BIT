@@ -1,0 +1,130 @@
+<!--
+  Generated template for the MyPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+    <div class="my_top">
+        <p class="th_light" *ngIf="globalData.account">{{globalData.account|phoneHide}}</p>
+        <p class="th_light" *ngIf="!globalData.account" (click)="login()">未登录</p>
+        <img *ngIf="globalData.avatarPath" [src]="globalData.avatarPath" (click)="chooseType()">
+        <img *ngIf="!globalData.avatarPath" src="assets/images/my/my_icon_header@{{dpr}}x.png" (click)="chooseType()">
+    </div>
+    <div class="bill" tappable (click)="goNextPage('bill')">
+        <img src="assets/images/my/my_icon_account@{{dpr}}x.png">
+        <p class="p1 th_gray">账户</p>
+        <p class="p2 th_light">账单记录</p>
+        <p class="p3 th_light">￥0.00</p>
+        <table>
+            <tr>
+                <td>可用保证金</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>冻结保证金</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>已用保证金</td>
+                <td>0.00</td>
+            </tr>
+        </table>
+        <button class="my_but1" ion-button (click)="goNextPage('recharge');$event.stopPropagation();$event.preventDefault();">充值</button>
+        <button class="my_but2" ion-button (click)="goNextPage('withdraw');$event.stopPropagation();$event.preventDefault();">提现</button>
+    </div>
+
+    <button ion-item no-lines class="my_item" (click)="goNextPage('moneyDetail')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_detail@{{dpr}}x.png">
+        </ion-avatar>
+        交易明细
+    </button>
+    <button ion-item no-lines class="my_item" (click)="goNextPage('identify')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_attestation@{{dpr}}x.png">
+        </ion-avatar>
+        身份认证
+        <ion-note item-end *ngIf="!globalData.authState">
+            未认证
+        </ion-note>
+        <ion-note item-end *ngIf="globalData.authState">
+            已认证
+        </ion-note>
+    </button>
+    <button ion-item no-lines class="my_item" (click)="goNextPage('phoneBind')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_phone@{{dpr}}x.png">
+        </ion-avatar>
+        修改绑定手机
+        <ion-note item-end *ngIf="!globalData.account">
+            未绑定
+        </ion-note>
+        <ion-note item-end *ngIf="globalData.account">
+            {{globalData.account|phoneHide}}
+        </ion-note>
+    </button>
+    <button ion-item no-lines class="my_item" (click)="goNextPage('bankCard')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_card@{{dpr}}x.png">
+        </ion-avatar>
+        我的银行卡
+        <!-- <ion-note item-end>
+            0
+        </ion-note> -->
+    </button>
+    <button ion-item no-lines class="my_item" (click)="goNextPage('password')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_code@{{dpr}}x.png">
+        </ion-avatar>
+        修改密码
+    </button>
+    <button ion-item no-lines class="my_item" (click)="goNextPage('set')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_setting@{{dpr}}x.png">
+        </ion-avatar>
+        设置
+    </button>
+    <!-- <button ion-item no-lines class="my_item" (click)="goNextPage('order')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_position@{{dpr}}x.png">
+        </ion-avatar>
+        持仓
+    </button> -->
+    <!-- <button ion-item no-lines class="my_item" (click)="goNextPage('selfinfo')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_information@{{dpr}}x.png">
+        </ion-avatar>
+        个人信息
+    </button> -->
+    <!-- <button ion-item no-lines class="my_item" (click)="goNextPage('promotion')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_promotion@{{dpr}}x.png">
+        </ion-avatar>
+        推广赚钱
+    </button> -->
+    <!-- <button ion-item no-lines class="my_item" (click)="goNextPage('coupon')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_coupon@{{dpr}}x.png">
+        </ion-avatar>
+        优惠券
+    </button> -->
+    <!-- <button ion-item no-lines class="my_item" (click)="goNextPage('riskwarn')">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_prompt@{{dpr}}x.png">
+        </ion-avatar>
+        风险提示
+    </button> -->
+    <!-- <ion-item class="my_item">
+        <ion-avatar item-start>
+            <img src="assets/images/my/my_icon_night@{{dpr}}x.png">
+        </ion-avatar>
+        <ion-label>夜间模式</ion-label>
+        <ion-toggle [(ngModel)]="nightState" (ngModelChange)="setDayState()" color="danger"></ion-toggle>
+    </ion-item> -->
+    <!-- <br>
+    <br>
+    <button ion-button block style="margin:0 auto;width:92%;height:3.33rem;" *ngIf="globalData.account" (click)="logout()">退出登录</button>
+    <br> -->
+    <br>
+</ion-content>

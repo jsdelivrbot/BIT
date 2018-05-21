@@ -1,0 +1,311 @@
+//------------------------自定义tabs图标----------------------------//
+@font-face {
+    font-family: "Ionicons";
+    src: url('../assets/font/fonts/Ionicons.eot');
+    src: url('../assets/font/fonts/Ionicons.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/font/fonts/Ionicons.woff') format('woff'), /* chrome, firefox */
+    url('../assets/font/fonts/Ionicons.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../assets/font/fonts/Ionicons.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.ion-md-home-outline:before {
+    content: "\e902";
+    color: #999;
+}
+
+.ion-ios-home-outline:before {
+    content: "\e902";
+    color: #999;
+}
+
+.ion-md-my-outline:before {
+    content: "\e904";
+    color: #999;
+}
+
+.ion-ios-my-outline:before {
+    content: "\e904";
+    color: #999;
+}
+
+.ion-md-my:before {
+    content: "\e904";
+    color: #3AA0F6;
+}
+
+.ion-ios-my:before {
+    content: "\e904";
+    color: #3AA0F6;
+}
+
+.ion-md-follow-outline:before {
+    content: "\e901";
+    color: #999;
+}
+
+.ion-ios-follow-outline:before {
+    content: "\e901";
+    color: #999;
+}
+
+.ion-md-follow:before {
+    content: "\e901";
+    color: #3AA0F6;
+}
+
+.ion-ios-follow:before {
+    content: "\e901";
+    color: #3AA0F6;
+}
+
+.ion-md-trade-outline:before {
+    content: "\e900";
+    color: #999;
+}
+
+.ion-ios-trade-outline:before {
+    content: "\e900";
+    color: #999;
+}
+
+.ion-md-trade:before {
+    content: "\e900";
+    color: #3AA0F6;
+}
+
+.ion-ios-trade:before {
+    content: "\e900";
+    color: #3AA0F6;
+}
+
+.ion-md-live-outline:before {
+    content: "\e903";
+    color: #999;
+}
+
+.ion-ios-live-outline:before {
+    content: "\e903";
+    color: #999;
+}
+
+.ion-md-live:before {
+    content: "\e903";
+    color: #3AA0F6;
+}
+
+.ion-ios-live:before {
+    content: "\e903";
+    color: #3AA0F6;
+}
+
+.ion-md-home:before {
+    content: "\e902";
+    color: #3AA0F6;
+}
+
+.ion-ios-home:before {
+    content: "\e902";
+    color: #3AA0F6;
+}
+
+page-Tabs {
+    .tabs-md .tab-button {
+        color: #999999;
+        min-height: 4rem!important;
+    }
+    .tabs-md[tabsLayout=icon-top] .has-icon .tab-button-text {
+        margin-top: 0;
+        margin-bottom: 0;
+        position: relative;
+        top: -4px;
+    }
+    .tabs-md .tab-button-icon {
+        margin-top: 8px;
+        min-width: 2rem;
+        font-size: 2rem;
+    }
+    .modal_mock {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 11;
+        display: flex;
+        align-items: center;
+        .confirm_self {
+            width: 77%;
+            margin: 0 auto;
+            z-index: 12;
+            background: white;
+            border-radius: 0.3rem;
+            overflow: hidden;
+            .div1 {
+                height: 3.33rem;
+                width: 100%;
+                position: relative;
+                p:first-child {
+                    font-family: PingFangSC-Medium;
+                    font-size: 1.5rem;
+                    color: #333333;
+                    letter-spacing: 0;
+                    position: absolute;
+                    left: 0.83rem;
+                    line-height: 3.33rem;
+                    font-weight: bold;
+                }
+                p:last-child {
+                    font-family: PingFangSC-Regular;
+                    font-size: 1.2rem;
+                    color: #999999;
+                    letter-spacing: 0;
+                    position: absolute;
+                    right: 0.83rem;
+                    line-height: 3.33rem;
+                }
+            }
+            .div2 {
+                width: 100%;
+                height: 12rem;
+                border-bottom: 1px solid #CCCCCC;
+                border-top: 1px solid #CCCCCC;
+                position: relative;
+                &>p:nth-child(1) {
+                    font-family: PingFangSC-Regular;
+                    font-size: 1.25rem;
+                    color: #999999;
+                    letter-spacing: 0;
+                    text-align: center;
+                    padding-top: 2.5rem;
+                }
+                &>p:nth-child(2) {
+                    position: absolute;
+                    top: 5.8rem;
+                    left: 2.08rem;
+                    font-family: PingFangSC-Regular;
+                    font-size: 1.25rem;
+                    color: #999999;
+                    letter-spacing: 0;
+                    text-align: center;
+                    img {
+                        width: 1.67rem;
+                        height: 1.67rem;
+                        position: relative;
+                        top: 0.4rem;
+                    }
+                }
+                &>div {
+                    width: 10rem;
+                    height: 2.08rem;
+                    position: absolute;
+                    top: 5.92rem;
+                    right: 2.08rem;
+                    display: flex;
+                    border-radius: 0.3rem;
+                    overflow: hidden;
+                    button {
+                        width: 2.5rem;
+                        height: 100%;
+                        background: #3AA0F6;
+                        font-family: PingFangSC-Regular;
+                        font-size: 2rem;
+                        color: #999999;
+                        letter-spacing: 0;
+                        color: white;
+                    }
+                    button.activated {
+                        background: #1d89e2;
+                    }
+                    input {
+                        width: 5rem;
+                        height: 100%;
+                        border-top: 1px solid #999999;
+                        border-bottom: 1px solid #999999;
+                        border-left: none;
+                        border-right: none;
+                        text-align: center;
+                        background: white;
+                    }
+                }
+            }
+            .div3 {
+                width: 100%;
+                height: 12rem;
+                border-bottom: 1px solid #CCCCCC;
+                border-top: 1px solid #CCCCCC;
+                position: relative;
+                &>div {
+                    height: 6rem;
+                    width: 100%;
+                    text-align: center;
+                    p {
+                        font-family: PingFangSC-Regular;
+                        font-size: 1.25rem;
+                        color: #999999;
+                        letter-spacing: 0;
+                        line-height: 2.5rem;
+                    }
+                    &>div {
+                        width: 12.5rem;
+                        height: 2.08rem;
+                        margin: 0 auto;
+                        display: flex;
+                        border-radius: 0.3rem;
+                        overflow: hidden;
+                        button {
+                            width: 2.5rem;
+                            height: 100%;
+                            background: #3AA0F6;
+                            font-family: PingFangSC-Regular;
+                            font-size: 2rem;
+                            color: #999999;
+                            letter-spacing: 0;
+                            color: white;
+                        }
+                        button.activated {
+                            background: #1d89e2;
+                        }
+                        input {
+                            width: 7.5rem;
+                            height: 100%;
+                            border-top: 1px solid #999999;
+                            border-bottom: 1px solid #999999;
+                            border-left: none;
+                            border-right: none;
+                            text-align: center;
+                            background: white;
+                        }
+                    }
+                }
+            }
+            .div4 {
+                height: 3.33rem;
+                width: 100%;
+                display: flex;
+                button {
+                    flex: 1;
+                    height: 100%;
+                    background: white;
+                }
+                button.activated {
+                    background: white;
+                }
+                button:first-child {
+                    font-family: PingFangSC-Regular;
+                    font-size: 1.2rem;
+                    color: #999999;
+                    letter-spacing: 0;
+                    border-right: 1px solid #CCCCCC;
+                }
+                button:last-child {
+                    font-family: PingFangSC-Regular;
+                    font-size: 1.2rem;
+                    color: #3AA0F6;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }
+}

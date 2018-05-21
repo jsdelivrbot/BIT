@@ -1,0 +1,74 @@
+{
+  "_from": "ionic-img-viewer",
+  "_id": "ionic-img-viewer@2.7.3",
+  "_inBundle": false,
+  "_integrity": "sha1-NWdKjYToAZG6A71aTA85ot/Hzo8=",
+  "_location": "/ionic-img-viewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ionic-img-viewer",
+    "name": "ionic-img-viewer",
+    "escapedName": "ionic-img-viewer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/ionic-img-viewer/download/ionic-img-viewer-2.7.3.tgz",
+  "_shasum": "35674a8d84e80191ba03bd5a4c0f39a2dfc7ce8f",
+  "_spec": "ionic-img-viewer",
+  "_where": "C:\\Users\\74274\\Desktop\\Origin",
+  "author": {
+    "name": "Orion Charlier"
+  },
+  "bugs": {
+    "url": "https://github.com/Riron/ionic-img-viewer/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ionic 2 component providing a Twitter inspired experience to visualize pictures.",
+  "devDependencies": {
+    "@angular/common": "4.4.4",
+    "@angular/compiler": "4.4.4",
+    "@angular/compiler-cli": "4.4.4",
+    "@angular/core": "4.4.4",
+    "@angular/forms": "4.4.4",
+    "@angular/http": "4.4.4",
+    "@angular/platform-browser": "4.4.4",
+    "@angular/platform-browser-dynamic": "4.4.4",
+    "@angular/platform-server": "4.4.4",
+    "fs-extra": "^4.0.2",
+    "node-sass": "^4.5.3",
+    "rxjs": "5.4.3",
+    "typescript": "~2.3.4",
+    "zone.js": "0.8.18"
+  },
+  "homepage": "https://github.com/Riron/ionic-img-viewer#readme",
+  "keywords": [
+    "ionic2",
+    "image",
+    "angular2",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "./dist/es2015/ionic-img-viewer.js",
+  "name": "ionic-img-viewer",
+  "peerDependencies": {
+    "ionic-angular": "3.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riron/ionic-img-viewer.git"
+  },
+  "scripts": {
+    "prepublish": "node ngc-build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "./dist/es2015/ionic-img-viewer.d.ts",
+  "version": "2.7.3"
+}

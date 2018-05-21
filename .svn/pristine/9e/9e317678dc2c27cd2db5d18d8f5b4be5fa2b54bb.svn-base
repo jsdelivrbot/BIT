@@ -1,0 +1,73 @@
+page-recharge {
+    .money_choose {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.42rem;
+        padding-bottom: 1.25rem;
+        &>div {
+            width: 28%;
+            border: 1px solid #3AA0F6;
+            height: 2.92rem;
+            border-radius: 0.25rem;
+            margin-top: 0.83rem;
+            margin-right: 2.7%;
+            text-align: center;
+            transition: .75s;
+            p {
+                font-family: PingFangSC-Regular;
+                font-size: 1.25rem;
+                color: #3AA0F6;
+                letter-spacing: 2px;
+                line-height: 2.92rem;
+            }
+        }
+        .active {
+            transition: .75s;
+            background: #3AA0F6!important;
+            p {
+                color: white!important;
+            }
+        }
+    }
+    .money_pay {
+        .pay_type {
+            height: 2.33rem;
+            p {
+                font-family: PingFangSC-Regular;
+                font-size: 1.25rem;
+                letter-spacing: 2px;
+                line-height: 2.33rem;
+                padding-left: 1.25rem;
+            }
+        }
+        .item-inner {
+            border-bottom: none!important;
+        }
+    }
+    .list-ios {
+        margin: 0 !important;
+    }
+    .rc_icon {
+        width: 2.08rem;
+        height: 2.08rem;
+    }
+    .money_num {
+        font-style: normal;
+        color: #3AA0F6;
+    }
+    .radio-ios .radio-checked .radio-inner {
+        display: none!important;
+    }
+    .radio-checked {
+        background: url('../assets/images/my/icon_dot_pre@3x.png')!important;
+        background-size: 100% 100%!important;
+    }
+    .radio-ios .radio-icon {
+        width: 1.67rem;
+        height: 1.67rem;
+        background: url('../assets/images/my/icon_dot_nor@3x.png');
+        background-size: 100% 100%;
+    }
+}

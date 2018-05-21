@@ -1,0 +1,51 @@
+{
+  "_from": "css3transform@^1.1.7",
+  "_id": "css3transform@1.1.8",
+  "_inBundle": false,
+  "_integrity": "sha1-hh1azrnpNMj6oeA1tBaPuRoyZcM=",
+  "_location": "/css3transform",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "css3transform@^1.1.7",
+    "name": "css3transform",
+    "escapedName": "css3transform",
+    "rawSpec": "^1.1.7",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.7"
+  },
+  "_requiredBy": [
+    "/alloycrop"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/css3transform/download/css3transform-1.1.8.tgz",
+  "_shasum": "861d5aceb9e934c8faa1e035b4168fb91a3265c3",
+  "_spec": "css3transform@^1.1.7",
+  "_where": "C:\\Users\\74274\\Desktop\\Bitcoin\\node_modules\\alloycrop",
+  "author": {
+    "name": "dntzhang"
+  },
+  "bugs": {
+    "url": "https://github.com/AlloyTeam/AlloyTouch/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "made css3 transform super easy",
+  "homepage": "http://alloyteam.github.io/AlloyTouch/transformjs/",
+  "keywords": [
+    "css3",
+    "transform",
+    "matrix"
+  ],
+  "license": "MIT",
+  "main": "transform.js",
+  "name": "css3transform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlloyTeam/AlloyTouch.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.8"
+}

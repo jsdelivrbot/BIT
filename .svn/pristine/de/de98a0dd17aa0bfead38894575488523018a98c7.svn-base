@@ -1,0 +1,51 @@
+{
+  "_from": "@ionic-native/image-picker@^4.5.2",
+  "_id": "@ionic-native/image-picker@4.5.2",
+  "_inBundle": false,
+  "_integrity": "sha1-72u6HNz5CORbH6K2t2T+p8La6j0=",
+  "_location": "/@ionic-native/image-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@ionic-native/image-picker@^4.5.2",
+    "name": "@ionic-native/image-picker",
+    "escapedName": "@ionic-native%2fimage-picker",
+    "scope": "@ionic-native",
+    "rawSpec": "^4.5.2",
+    "saveSpec": null,
+    "fetchSpec": "^4.5.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/@ionic-native/image-picker/download/@ionic-native/image-picker-4.5.2.tgz",
+  "_shasum": "ef6bba1cdcf908e45b1fa2b6b764fea7c2daea3d",
+  "_spec": "@ionic-native/image-picker@^4.5.2",
+  "_where": "C:\\Users\\74274\\Desktop\\Bitcoin",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/image-picker",
+  "peerDependencies": {
+    "@ionic-native/core": "^4.2.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "4.5.2"
+}

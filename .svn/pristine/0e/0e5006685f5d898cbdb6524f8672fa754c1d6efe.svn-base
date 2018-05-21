@@ -1,0 +1,91 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-appminimize": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-clipboard": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-alipay-base": {
+            "ALI_PID": "com.midukeji.Bitcoin",
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-wechat": {
+            "WECHATAPPID": "YOUR_WECHAT_APPID",
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "jpush-phonegap-plugin": {
+            "APP_KEY": "a99a67de78fec10c99afba08",
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        },
+        "cordova-plugin-jcore": {
+            "PACKAGE_NAME": "com.midukeji.Bitcoin"
+        }
+    }
+}

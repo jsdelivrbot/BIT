@@ -1,0 +1,69 @@
+{
+  "_from": "alloyfinger@^0.1.8",
+  "_id": "alloyfinger@0.1.11",
+  "_inBundle": false,
+  "_integrity": "sha1-+GqwB4dR/NlFMUThZmF+H/PuOUQ=",
+  "_location": "/alloyfinger",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "alloyfinger@^0.1.8",
+    "name": "alloyfinger",
+    "escapedName": "alloyfinger",
+    "rawSpec": "^0.1.8",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.8"
+  },
+  "_requiredBy": [
+    "/alloycrop"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/alloyfinger/download/alloyfinger-0.1.11.tgz",
+  "_shasum": "f86ab0078751fcd9453144e166617e1ff3ee3944",
+  "_spec": "alloyfinger@^0.1.8",
+  "_where": "C:\\Users\\74274\\Desktop\\Bitcoin\\node_modules\\alloycrop",
+  "author": {
+    "name": "dntzhang"
+  },
+  "bugs": {
+    "url": "https://github.com/AlloyTeam/AlloyFinger/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "super tiny size multi-touch gestures library for the web. ",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "fast-async": "^6.2.2",
+    "husky": "^0.13.3"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "homepage": "https://github.com/AlloyTeam/AlloyFinger#readme",
+  "keywords": [
+    "gesture",
+    "touch",
+    "multitouch"
+  ],
+  "license": "MIT",
+  "main": "alloy_finger.js",
+  "name": "alloyfinger",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlloyTeam/AlloyFinger.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.11"
+}
